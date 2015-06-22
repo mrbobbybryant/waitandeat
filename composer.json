@@ -1,0 +1,29 @@
+{
+  "name": "bobby/waitandeat",
+    "type": "wordpress-theme",
+    "require": {
+      "wp-api/wp-api": "2.0-beta2"
+    },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-api/wp-api",
+        "version": "2.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "https://github.com/WP-API/WP-API.git",
+          "type": "git",
+          "reference": "2.0-beta2"
+        }
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "../../plugins/{$name}": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }
+}
