@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "49bfb69c26f5f1f75a0c2d54e73f65a2",
+    "hash": "b610362301a4b6436a82751c413ad2c3",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,6 +100,16 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "wp-api/OAuth1",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/OAuth1.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wp-api/wp-api",

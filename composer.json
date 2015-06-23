@@ -2,7 +2,8 @@
   "name": "bobby/waitandeat",
     "type": "wordpress-theme",
     "require": {
-      "wp-api/wp-api": "2.0-beta2"
+      "wp-api/wp-api": "2.0-beta2",
+      "wp-api/OAuth1": "0.1"
     },
   "repositories": [
     {
@@ -15,6 +16,19 @@
           "url": "https://github.com/WP-API/WP-API.git",
           "type": "git",
           "reference": "2.0-beta2"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-api/OAuth1",
+        "version": "0.1",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "https://github.com/WP-API/OAuth1.git",
+          "type": "git",
+          "reference": "master"
         }
       }
     }
